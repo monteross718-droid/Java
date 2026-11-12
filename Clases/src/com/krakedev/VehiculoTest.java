@@ -3,45 +3,45 @@ package com.krakedev;
 public class VehiculoTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-	
-		Vehiculo v;
-		v = new Vehiculo();
-		
-		System.out.println("==============Vehiculo 1: Creado=================");
-		
-		System.out.println("Hola mundo");
-		
-		System.out.println("Año"+ v.anio);
-		System.out.println("Marca"+ v.marca);
-		System.out.println("Modelo"+ v.modelo);
-		
-		System.out.println("=============Vehiculo 1: Valores asignados==========");
-		
-		v.anio = "2012";
-		v.marca = "Chevrolet";
-		v.modelo = "Nuevo";
-		
-		System.out.println("Año"+ v.anio);
-		System.out.println("Marca"+ v.marca);
-		System.out.println("Modelo"+ v.modelo);
+			  
 
-		System.out.println("==============Vehiculo 2: Creado=================");
-		
-		Vehiculo v2 = new Vehiculo();
-		
-		System.out.println("Año"+ v2.anio);
-		System.out.println("Marca"+ v2.marca);
-		System.out.println("Modelo"+ v2.modelo);
-		v2.anio = "2026";
-		v2.marca = "Chevrolet";
-		v2.modelo = "El mas rapido";
-	
-		System.out.println("Año"+ v2.anio);
-		System.out.println("Marca"+ v2.marca);
-		System.out.println("Modelo"+ v2.modelo);
+		        Vehiculo v = new Vehiculo();
 
-	}
+		        System.out.println("=== Vehículo 1: valores iniciales ===");
+		        System.out.println("Año: " + v.getAnio());
+		        System.out.println("Marca: " + v.getMarca());
+		        System.out.println("Modelo: " + v.getModelo());
+		        System.out.println("Valor: " + v.getValor());
 
-}
+		        v.setAnio("2012");
+		        v.setMarca("Chevrolet");
+		        v.setModelo("Nuevo");
+		        v.setValor(12000);
+
+		        System.out.println("=== Vehículo 1: valores asignados ===");
+		        System.out.println("Año: " + v.getAnio());
+		        System.out.println("Marca: " + v.getMarca());
+		        System.out.println("Modelo: " + v.getModelo());
+		        System.out.println("Valor: " + v.getValor());
+
+		        Vehiculo v2 = new Vehiculo();
+
+		        System.out.println("=== Vehículo 2: valores iniciales ===");
+		        System.out.println("Año: " + v2.getAnio());
+		        System.out.println("Marca: " + v2.getMarca());
+		        System.out.println("Modelo: " + v2.getModelo());
+		        System.out.println("Valor: " + v2.getValor());
+
+		        v2.setAnio("2026");
+		        v2.setMarca("Chevrolet");
+		        v2.setModelo("El más rápido");
+		        v2.setValor(25000);
+
+		        System.out.println("=== Vehículo 2: valores asignados ===");
+		        System.out.println("Año: " + v2.getAnio());
+		        System.out.println("Marca: " + v2.getMarca());
+		        System.out.println("Modelo: " + v2.getModelo());
+		        System.out.println("Valor: " + v2.getValor());
+		    }
+		}

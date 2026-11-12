@@ -3,7 +3,6 @@ package com.krakedev;
 public class TestCalculadora {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Calculadora c1 = new Calculadora();
 		int r1;
@@ -13,7 +12,7 @@ public class TestCalculadora {
 		
 		int r2;
 		r2 = c1.restar(4, 2);
-		System.out.println("Resultado Suma: "+ r2);
+		System.out.println("Resultado Resta: "+ r2);
 		
 		double r3;
 		r3 = c1.multiplicar(10, 5);
