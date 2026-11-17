@@ -43,5 +43,16 @@ public class TestRectangulo {
 	        System.out.println("Altura: " + r2.getAltura());
 	        System.out.println("Area: " + area2);
 	        System.out.println("Perimetro: " + perimetro2);
-	    }
+	        
+	     
+	        Rectangulo r3 = new Rectangulo(10, 50);
+
+	        
+	        System.out.println("RECTANGULO 3");
+	        System.out.println("Base: " + r3.getBase());
+	        System.out.println("Altura: " + r3.getAltura());
+	        System.out.println("Area: " + r3.calcularArea());
+	        System.out.println("Perimetro: " + r3.calcularPerimetro());
+	}
+		    
 	}

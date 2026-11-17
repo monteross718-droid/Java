@@ -45,4 +45,14 @@ public void mostrarResultado() {
         "Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos"
     );
 	}
+
+public double calcularDescuento(double precio, double porcentajeDescuento) {
+		double descuento; 
+		double precioDescontado;
+		descuento = precio * porcentajeDescuento/100;
+		
+		precioDescontado = precio - descuento; 
+		return  precioDescontado;
+}
+
 }
